@@ -1,0 +1,45 @@
+﻿<Window x:Class="Yordanov_M_FinalProjectCS23.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Yordanov_M_FinalProjectCS23"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid Background="#FFD7E0E0">
+            <Grid Width="800" Height="60" VerticalAlignment="Top" >
+                <TextBlock Padding="10" Height="60" TextWrapping="Wrap" Text="Inventory Tracker" VerticalAlignment="Top" Width="800" Background="#FF538083" FontFamily="MS Gothic" FontSize="40" TextAlignment="Center" Foreground="#FFC2D0D1"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="20" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="20" Margin="5,5,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="15,17,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="42,5,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="11,41,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="42,37,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="5,39,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="20,36,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="37,46,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="47,24,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="35,5,0,0"/>
+            </Grid>
+
+            <Border Margin="0, -215, 0, 0" Height="60" Width="400" Background="#EF798A" CornerRadius="25" >
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Menu" Foreground="#B75D69" FontSize="32" FontFamily="MS Gothic"   ></Label>
+            </Border>
+            <Border Margin="271,155,272.667,216"  Background="#B75D69" CornerRadius="20">
+                <Button Background="Transparent" Content="Store Inventory" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Button_Click" Margin="0,0,-0.333,0.333"/>
+            </Border>
+            <Border Margin="271,229,272.667,142"  Background="#B75D69" CornerRadius="20">
+                <Button Background="Transparent" Content="Product Inventory" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Button1_Click" Margin="0,0,-0.333,0.333"/>
+            </Border>
+            <Border Margin="271,303,272.667,68"  Background="#B75D69" CornerRadius="20">
+                <Button x:Name="Button3" Background="Transparent" Content="Product Code" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Button2_Click" Margin="0,0,-0.333,0.333"/>
+            </Border>
+
+
+
+
+
+
+        </Grid>
+    </Grid>
+</Window>

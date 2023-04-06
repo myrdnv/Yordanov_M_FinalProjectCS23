@@ -1,0 +1,47 @@
+﻿<Window x:Class="Yordanov_M_FinalProjectCS23.StoreInventory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Yordanov_M_FinalProjectCS23"
+        mc:Ignorable="d"
+        Title="StoreInventory" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid Background="#FFD7E0E0" Margin="0,0,-0.333,0">
+            <Grid Width="800" Height="60" VerticalAlignment="Top" >
+                <TextBlock Padding="10" Height="60" TextWrapping="Wrap" Text="Inventory Tracker" VerticalAlignment="Top" Width="800" Background="#FF538083" FontFamily="MS Gothic" FontSize="40" TextAlignment="Center" Foreground="#FFC2D0D1"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="20" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="20" Margin="5,5,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="15,17,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="42,5,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="11,41,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="15" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="15" Margin="42,37,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="5,39,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="20,36,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="37,46,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="47,24,0,0"/>
+                <Rectangle Fill="#C2D0D1" HorizontalAlignment="Left" Height="10" StrokeThickness="0.5" Stroke="#538083" VerticalAlignment="Top" Width="10" Margin="35,5,0,0"/>
+            </Grid>
+
+            <Border Margin="0, -215, 0, 0" Height="60" Width="400" Background="#EF798A" CornerRadius="25" >
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Store Inventory" Foreground="#B75D69" FontSize="32" FontFamily="MS Gothic"   ></Label>
+            </Border>
+            <Button VerticalAlignment="Top" Height="60" Background="Transparent" BorderBrush="Transparent" Click="Button_Click" />
+            <DataGrid HorizontalAlignment="Left" Height="242" Margin="311,155,0,0" VerticalAlignment="Top" Width="454"/>
+            <Border Margin="46,312,497.667,59"  Background="#B75D69" CornerRadius="20">
+                <Button Background="Transparent" Content="Load" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Button_Click" Margin="0,0,-0.333,0.333"/>
+            </Border>
+            <Border Margin="46,155,497.667,216" Background="#B75D69" CornerRadius="20">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Choose Store" Foreground="#C2D0D1" FontSize="20" FontFamily="MS Gothic"  />
+            </Border>
+            <Border Margin="46,231,497.667,140" BorderThickness="3" BorderBrush="#EF798A" Background="Transparent" CornerRadius="20"/>
+            <ComboBox Background="Transparent" Foreground="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="53,237,0,0" VerticalAlignment="Top" Width="236" Height="38"/>
+
+
+
+
+
+
+
+        </Grid>
+    </Grid>
+</Window>
