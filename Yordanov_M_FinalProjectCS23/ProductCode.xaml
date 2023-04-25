@@ -25,8 +25,7 @@
             <Border Margin="0, -215, 0, 0" Height="60" Width="400" Background="#EF798A" CornerRadius="25" >
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Product Code" Foreground="#B75D69" FontSize="32" FontFamily="MS Gothic"   ></Label>
             </Border>
-            <Button VerticalAlignment="Top" Height="60" Background="Transparent" BorderBrush="Transparent" Click="Button_Click" />
-            <DataGrid HorizontalAlignment="Left" Height="242" Margin="311,155,0,0" VerticalAlignment="Top" Width="454" SelectionChanged="DataGrid_SelectionChanged"/>
+            <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="242" Margin="311,155,0,0" VerticalAlignment="Top" Width="454" SelectionChanged="DataGrid_SelectionChanged"/>
             <Border Margin="46,312,497.667,59"  Background="#B75D69" CornerRadius="20">
                 <Button Background="Transparent" Content="Load" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Button_Click" Margin="0,0,-0.333,0.333"/>
             </Border>
@@ -35,6 +34,7 @@
             </Border>
             <Border Margin="46,231,497.667,140" BorderThickness="3" BorderBrush="#EF798A" Background="Transparent" CornerRadius="20"/>
             <TextBox x:Name="code" VerticalAlignment="Center" HorizontalAlignment="Center" Height="41" Width="251" Background="Transparent" BorderBrush="Transparent" FontFamily="MS Gothic" FontSize="20" Text="" Foreground="#B75D69" Margin="45,240,497.333,139.667" TextAlignment="Center"/>
+            <Button VerticalAlignment="Top" Height="60" Background="Transparent" BorderBrush="Transparent" Click="Home" />
 
 
 

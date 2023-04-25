@@ -25,7 +25,36 @@
             <Border Margin="0, -215, 0, 0" Height="60" Width="400" Background="#EF798A" CornerRadius="25" >
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Product Inventory" Foreground="#B75D69" FontSize="32" FontFamily="MS Gothic"   ></Label>
             </Border>
-            <Button VerticalAlignment="Top" Height="60" Background="Transparent" BorderBrush="Transparent" Click="Button_Click" />
+            <Border Margin="46,155,497.667,216" Background="#B75D69" CornerRadius="20">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Enter Product Code" Foreground="#C2D0D1" FontSize="20" FontFamily="MS Gothic"  />
+            </Border>
+            <Border Margin="46,231,497.667,140" BorderThickness="3" BorderBrush="#EF798A" Background="Transparent" CornerRadius="20"/>
+            <TextBox x:Name="code" VerticalAlignment="Center" HorizontalAlignment="Center" Height="41" Width="251" Background="Transparent" BorderBrush="Transparent" FontFamily="MS Gothic" FontSize="20" Text="" Foreground="#B75D69" Margin="45,240,497.333,139.667" TextAlignment="Center"/>
+            <Border Margin="326,231,217.667,140" BorderThickness="3" BorderBrush="#EF798A" Background="Transparent" CornerRadius="20"/>
+            <Border Margin="326,155,217.667,216" Background="#B75D69" CornerRadius="20">
+                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Enter Product Name" Foreground="#C2D0D1" FontSize="20" FontFamily="MS Gothic"  />
+            </Border>
+            <Border Margin="46,326,593.667,45" Background="#B75D69" CornerRadius="20"/>
+            <Border Margin="234,325,405.667,46" Background="#B75D69" CornerRadius="20">
+                <Button Background="Transparent" Content="Delete" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Delete"/>
+            </Border>
+            <TextBox x:Name="name" VerticalAlignment="Center" HorizontalAlignment="Center" Height="42" Width="251" Background="Transparent" BorderBrush="Transparent" FontFamily="MS Gothic" FontSize="20" Text="" Foreground="#B75D69" Margin="326,241,217.667,139" TextAlignment="Center"/>
+            <Border Margin="422,326,217.667,45" Background="#B75D69" CornerRadius="20">
+                <Button Background="Transparent" Content="Update" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Update"/>
+            </Border>
+            <Image x:Name="Bubbles" HorizontalAlignment="Left" Height="274" Margin="491,107,-159.333,0" VerticalAlignment="Top" Width="463" Source="bubbles.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90.24"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Button Background="Transparent" Content="Add" FontSize="20" FontFamily="MS Gothic" Foreground="#C2D0D1" BorderBrush ="Transparent" Click="Button_Click" Margin="46,326,593.667,46" RenderTransformOrigin="0.501,0.5"/>
+            <Button VerticalAlignment="Top" Height="60" Background="Transparent" BorderBrush="Transparent" Click="Home" />
+
 
 
 
